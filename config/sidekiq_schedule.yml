@@ -1,0 +1,4 @@
+"Data Ingestion Mindbody Fetch All Sites":
+  cron: "0 5 * * *"
+  class: "CronJobs::Mindbody::FetchAllSitesWorker"
+  description: "Ingests all site inventory from Mindbody"
